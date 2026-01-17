@@ -1,0 +1,14 @@
+target
+.git
+.gitignore
+docker-compose.override.yml
+.dockerignore
+*.md
+*.log
+
+
+
+*.env
+target/
+.git/
+node_modules/
