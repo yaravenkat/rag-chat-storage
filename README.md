@@ -79,10 +79,11 @@ curl -X GET "http://localhost:8080/api/sessions/session1" ^
 Create a Chat Session
 ======================
 
-curl -X POST http://localhost:8080/api/sessions -H "Content-Type: application/json" -H "X-API-KEY: super-secret-api-key" -d "{\"userId\":\"venkat\",\"sessionName\":\"MyFirst Session\"}"
 
-
-
+curl -X POST http://localhost:8080/api/sessions ^
+  -H "Content-Type: application/json" ^
+  -H "X-API-KEY: super-secret-api-key" ^
+  -d "{\"userId\":\"venkat\",\"sessionName\":\"My First Session\"}"
 
 
 Rename a Session
